@@ -1,0 +1,12 @@
+# Ignore resunt files
+/result*
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Temporary ingon idea folder
+/.idea/
+
+# Ignore macOS file
+/.DS_Store

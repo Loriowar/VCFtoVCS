@@ -1,0 +1,23 @@
+# Template for android calendar event (used for Lenovo p770)
+# parameters:
+#   $summary_string   - event title
+#   $description_str  - event description
+#   $start_event_date - start date
+#   $end_event_date   - end date
+#
+BEGIN:VCALENDAR
+VERSION:1.0
+PRODID:-//LENOVO Calendar V1.0//EN
+BEGIN:VEVENT
+SUMMARY;CHARSET=UTF-8:$subj_name 
+LOCATION;CHARSET=UTF-8:
+DESCRIPTION;CHARSET=UTF-8:$description_str
+DTSTART:$start_event_date
+DTEND:$end_event_date
+BEGIN:VALARM
+TRIGGER:0
+END:VALARM
+AALARM:$start_event_date
+RRULE:FREQ=YEARLY;WKST=SU
+END:VEVENT
+END:VCALENDAR

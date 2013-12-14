@@ -1,0 +1,7 @@
+== README
+
+This is script for merge contacts birthday from Vcard to Vcalendaer.
+
+It create single file for each Vcalendar record, based on file with Vcard records.
+For some flexibility using template with substitutions for Vcalendar record.
+
